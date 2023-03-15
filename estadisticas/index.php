@@ -65,7 +65,9 @@ $titulo_pagina = "Estadísticas de Servicios";
                     <td>Largo</td>
                     <td>Volumen</td>
                     <td>Monto cobrado</td>
-                    <td>Costo Aprox</td>
+                    <td>Pago estilista</td>
+                    <td>Costo Productos</td>
+                    <td>Gastos Fijos</td>
                     <td>Ganancia Aprox</td>
                   </tr>
                 </thead>
@@ -106,8 +108,10 @@ $titulo_pagina = "Estadísticas de Servicios";
             <td data-titulo = "Largo cabello">${element.largo_cabello}</td>
             <td data-titulo = "Volumen cabello">${element.volumen_cabello}</td>
             <td data-titulo = "Monto">$${element.monto_cobrado}</td>
+            <td data-titulo = "Pago Estilista">$${element.pago_estilista}</td>
             <td data-titulo = "Costo">$${element.costo_servicio}</td>
-            <td data-titulo = "Ganancia">$${element.monto_cobrado - element.costo_servicio}</td>
+            <td data-titulo = "Costo">$${element.gastos_fijos}</td>
+            <td data-titulo = "Ganancia">$${element. ganancia_aprox }</td>
             </tr>
             `
           })
